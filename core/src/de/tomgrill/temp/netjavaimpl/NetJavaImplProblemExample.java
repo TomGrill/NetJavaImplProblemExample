@@ -29,7 +29,7 @@ public class NetJavaImplProblemExample extends ApplicationAdapter {
 
                 System.out.println("YEAH SUCCESSFUL RESPONSE");
                 String response = httpResponse.getResultAsString();
-
+                System.out.println(response);
                 Json json = new Json();
 
 
